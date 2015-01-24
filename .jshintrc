@@ -15,6 +15,7 @@
     "noempty": true,
     "nonbsp": true,
     "nonew": true,
+    "node": true,
     "quotmark": "double",
     "undef": true,
     "unused": true,
