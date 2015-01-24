@@ -1,4 +1,4 @@
-case-camel [![Code Climate](https://codeclimate.com/github/ileri/case-camel/badges/gpa.svg)](https://codeclimate.com/github/ileri/case-camel)
+case-camel [![Code Climate](https://codeclimate.com/github/ileri/case-camel/badges/gpa.svg)](https://codeclimate.com/github/ileri/case-camel) [![Build Status](https://travis-ci.org/ileri/case-camel.svg?branch=0.3.0)](https://travis-ci.org/ileri/case-camel)
 ==============
 > Parse and stringify CamelCase strings
 
