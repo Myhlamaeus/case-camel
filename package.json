@@ -1,7 +1,6 @@
 {
   "name": "case-camel",
   "version": "0.1.0",
-  "description": "",
   "main": "case-camel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,13 @@
     "camelcase"
   ],
   "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/case-camel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ileri/case-camel/issues"
+  },
+  "homepage": "https://github.com/ileri/case-camel"
 }
