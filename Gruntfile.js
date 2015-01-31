@@ -58,6 +58,11 @@ module.exports = function (grunt) {
                 },
                 "src": ["test/{*/,}*.js"]
             }
+        },
+        "bump": {
+            "options": {
+                "pushTo": "origin"
+            }
         }
     });
 
