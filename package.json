@@ -1,25 +1,10 @@
 {
   "name": "case-camel",
   "version": "0.3.1",
-  "main": "case-camel.js",
-  "scripts": {
-    "test": "grunt test"
-  },
-  "keywords": [
-    "case",
-    "camel",
-    "camelcase"
-  ],
   "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
-  "license": "GPL-3.0",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ileri/case-camel.git"
-  },
   "bugs": {
     "url": "https://github.com/ileri/case-camel/issues"
   },
-  "homepage": "https://github.com/ileri/case-camel",
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-bump": "^0.1.0",
@@ -30,5 +15,20 @@
     "load-grunt-tasks": "^3.0.0",
     "mocha": "^2.1.0",
     "time-grunt": "^1.0.0"
+  },
+  "homepage": "https://github.com/ileri/case-camel",
+  "keywords": [
+    "case",
+    "camel",
+    "camelcase"
+  ],
+  "license": "GPL-3.0",
+  "main": "case-camel.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ileri/case-camel.git"
+  },
+  "scripts": {
+    "test": "grunt test"
   }
 }
