@@ -27,6 +27,6 @@
   },
   "scripts": {
     "prepublish": "gulp build",
-    "test": "grunt test"
+    "test": "gulp test"
   }
 }
