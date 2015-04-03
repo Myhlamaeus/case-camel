@@ -1,9 +1,9 @@
-var caseCamel = require("../case-camel"),
-    assert = require("assert");
+import * as caseCamel from "../case-camel";
+import assert from "assert";
 
 describe("case-camel", function() {
     describe("#parseSameCase()", function() {
-        var tests = [
+        const tests = [
             ["T", ["T"]],
             ["t", ["t"]],
             ["Test", ["Test"]],
@@ -13,18 +13,15 @@ describe("case-camel", function() {
             ["THISIsATest", ["THIS", "Is", "A", "Test"]]
         ];
 
-        tests.forEach(function(pair) {
-            var camel = pair[0],
-                parsed = pair[1];
-
+        for(let [camel, parsed] of tests) {
             it(JSON.stringify(camel) + " -> " + JSON.stringify(parsed), function() {
                 assert.deepEqual(caseCamel.parseSameCase(camel), parsed);
             });
-        });
+        }
     });
 
     describe("#parse()", function() {
-        var tests = [
+        const tests = [
             ["T", ["t"]],
             ["t", ["t"]],
             ["Test", ["test"]],
@@ -34,18 +31,15 @@ describe("case-camel", function() {
             ["THISIsATest", ["this", "is", "a", "test"]]
         ];
 
-        tests.forEach(function(pair) {
-            var camel = pair[0],
-                parsed = pair[1];
-
+        for(let [camel, parsed] of tests) {
             it(JSON.stringify(camel) + " -> " + JSON.stringify(parsed), function() {
                 assert.deepEqual(caseCamel.parse(camel), parsed);
             });
-        });
+        }
     });
 
     describe("#stringify()", function() {
-        var tests = [
+        const tests = [
             ["T", ["t"]],
             ["T", ["T"]],
             ["Test", ["test"]],
@@ -55,13 +49,10 @@ describe("case-camel", function() {
             ["THISIsATest", ["THIS", "is", "a", "test"]]
         ];
 
-        tests.forEach(function(pair) {
-            var camel = pair[0],
-                parsed = pair[1];
-
+        for(let [camel, parsed] of tests) {
             it(JSON.stringify(parsed) + " -> " + JSON.stringify(camel), function() {
                 assert.equal(caseCamel.stringify(parsed), camel);
             });
-        });
+        }
     });
 });
