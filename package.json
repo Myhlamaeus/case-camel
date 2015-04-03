@@ -20,12 +20,13 @@
     "camelcase"
   ],
   "license": "MIT",
-  "main": "case-camel.js",
+  "main": "dist/case-camel.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/ileri/case-camel.git"
   },
   "scripts": {
+    "prepublish": "gulp build",
     "test": "grunt test"
   }
 }
