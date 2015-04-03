@@ -1,0 +1,28 @@
+{
+  "name": "case-camel",
+  "main": "case-camel.js",
+  "version": "0.3.2",
+  "homepage": "https://github.com/ileri/case-camel",
+  "authors": [
+    "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
+  ],
+  "description": "Parse and stringify CamelCase strings",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "case",
+    "camel",
+    "camelcase"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "dist",
+    "maps"
+  ]
+}
