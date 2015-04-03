@@ -19,7 +19,7 @@
     "camel",
     "camelcase"
   ],
-  "license": "GPL-3.0",
+  "license": "MIT",
   "main": "case-camel.js",
   "repository": {
     "type": "git",
