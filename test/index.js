@@ -1,6 +1,4 @@
-/* jshint node: true */
+'use strict'
 
-"use strict";
-
-require("babel/register");
-require("./case-camel");
+require('babel/register')
+require('./case-camel')
