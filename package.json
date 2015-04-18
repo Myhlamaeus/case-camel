@@ -27,6 +27,6 @@
   },
   "scripts": {
     "prepublish": "gulp build",
-    "test": "gulp test"
+    "test": "standard {test/,lib/,./}*.js && gulp test"
   }
 }
