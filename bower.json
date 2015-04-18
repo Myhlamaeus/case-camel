@@ -1,7 +1,7 @@
 {
   "name": "case-camel",
   "main": "case-camel.js",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "homepage": "https://github.com/ileri/case-camel",
   "authors": [
     "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>"
