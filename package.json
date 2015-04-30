@@ -7,7 +7,7 @@
     "url": "https://github.com/ileri/case-camel/issues"
   },
   "devDependencies": {
-    "babel": "^5.1.10",
+    "babel": "^5.1.13",
     "gulp": "^3.8.11",
     "gulp-babel": "^5.1.0",
     "gulp-mocha": "^2.0.1",
