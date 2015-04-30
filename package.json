@@ -2,7 +2,7 @@
   "name": "case-camel",
   "description": "Parse and stringify CamelCase strings",
   "version": "0.5.0",
-  "author": "Malte-Maurice Dreyer <dreyer.maltem@gmail.com>",
+  "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
   "bugs": {
     "url": "https://github.com/ileri/case-camel/issues"
   },
